@@ -16,4 +16,6 @@ employeeTest = (name, id, email) => {
 
     getRole()
 
-    return employee
+    return employee
+
+}
