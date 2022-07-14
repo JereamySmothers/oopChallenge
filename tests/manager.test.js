@@ -1,21 +1,2 @@
-managerTest = (name, id, email, officeNumber) => {
+const index = require('../src/index');
 
-    name
-
-    id
-
-    email
-
-    getName()
-
-    getId()
-
-    getEmail()
-
-    getRole()
-
-    return manager
-
-    officeNumber
-
-}
