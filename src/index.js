@@ -1,7 +1,10 @@
 // node packages
 const inquirer = require('inquirer');
 const jest = require('jest');
-
+const HTML = require('./dist/page-template');
+const Manager = require('./lib/Manager');
+const Intern = require('./lib/Intern');
+const Engineer = require('./lib/Engineer');
 
 // employee = (name, id, email) => {
 
@@ -25,20 +28,6 @@ const jest = require('jest');
 
 // engineer = (name, id, email, github) => {
 
-//     name
-
-//     id
-
-//     email
-
-//     getName()
-
-//     getId()
-
-//     getEmail()
-
-//     getRole()
-
 //     github
 
 //     getGithub()
@@ -48,20 +37,6 @@ const jest = require('jest');
 // }
 
 // intern = (name, id, email, school) => {
-
-//     name
-
-//     id
-
-//     email
-
-//     getName()
-
-//     getId()
-
-//     getEmail()
-
-//     getRole()
 
 //     school
 
@@ -73,23 +48,9 @@ const jest = require('jest');
 
 // manager = (name, id, email, officeNumber) => {
 
-//     name
-
-//     id
-
-//     email
-
-//     getName()
-
-//     getId()
-
-//     getEmail()
-
-//     getRole()
+//     officeNumber
 
 //     return manager
-
-//     officeNumber
 
 // }
 
